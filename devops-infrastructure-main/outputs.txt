@@ -1,0 +1,19 @@
+bucket_arn = "arn:aws:s3:::teamc-f8a889da47d6b432"
+certificate_arn = "arn:aws:acm:us-east-2:339713077528:certificate/3b6671e8-13cd-46b4-998c-903ec96786c9"
+dynamodb_table_name = "finance-state-locking"
+jenkins_instance_id = "i-0b2e5fb1ecf8c5d79"
+jenkins_instance_public_ip = "18.132.203.204"
+maven_sonarqube_instance_id = "i-0d4950ce43b5b3f75"
+maven_sonarqube_instance_public_ip = "18.130.92.41"
+public_subnet_ids = [
+  "subnet-01a583fea19c33095",
+  "subnet-01553b56b10d3fd57",
+  "subnet-022e2b029a8e7ddd8",
+]
+repository_arn = "arn:aws:ecr:us-east-2:339713077528:repository/my-repo"
+repository_url = "339713077528.dkr.ecr.us-east-2.amazonaws.com/my-repo"
+s3_bucket_name = "teamc-f8a889da47d6b432"
+security_group_id = "sg-0418aaa9339a23a16"
+terraform_instance_id = "i-0fd11ff18ecdb0dbb"
+terraform_instance_public_ip = "3.10.205.166"
+vpc_id = "vpc-0ac51d5c153a223e9"

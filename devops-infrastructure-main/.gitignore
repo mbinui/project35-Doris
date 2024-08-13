@@ -1,0 +1,24 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+# Ignore Terraform variables files
+*.tfvars
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore Terraform plan output
+*.tfplan
+
+# Ignore sensitive information files
+terraform.tfvars
+secret.tfvars
+
+# Ignore lock files
+*.lock.hcl
+
+*.lock.hcl" >> .gitignore
+
+
