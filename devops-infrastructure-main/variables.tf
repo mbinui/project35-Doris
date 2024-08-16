@@ -12,7 +12,7 @@ variable "ami_name_filter" {
 variable "ami_owner" {
   description = "The owner ID of the AMI"
   type        = string
-  default     = "058264135500"
+  default     = "032795972194"
 }
 
 variable "instance_type" {
