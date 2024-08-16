@@ -12,7 +12,7 @@ variable "ami_name_filter" {
 variable "ami_owner" {
   description = "The owner ID of the AMI"
   type        = string
-  default     = "099720109477"
+  default     = "058264135500"
 }
 
 variable "instance_type" {
@@ -75,7 +75,7 @@ variable "tags" {
   type        = map(string)
   default = {
     Environment = "dev"
-    Name        = "teamc"
+    Name        = "devops"
   }
 }
 
@@ -100,7 +100,7 @@ variable "listener_port" {
 variable "bucket_name_prefix" {
   description = "Prefix for the S3 bucket name"
   type        = string
-  default     = "teamc"
+  default     = "devops"
 }
 
 variable "versioning" {
@@ -118,7 +118,7 @@ variable "route53_zone_id" {
 variable "vpc_name" {
   description = "The name prefix for the VPC and related resources"
   type        = string
-  default     = "teamc-vpc"
+  default     = "devops-vpc"
 }
 
 variable "associate_public_ip_address" {

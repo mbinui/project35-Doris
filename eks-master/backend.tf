@@ -4,6 +4,6 @@ terraform {
     key            = "infra/terraformstatefile"
     bucket         = "teamc-5db7d832d9b9de8f"
     region         = "us-east-2"
-    dynamodb_table = "teamC-state-locking"
+    dynamodb_table = "devops-state-locking"
   }
 }

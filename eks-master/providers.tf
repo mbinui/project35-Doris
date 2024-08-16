@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 variable "cluster_name" {
-  default = "teamC-cluster"
+  default = "devops-cluster"
 }
 
 variable "cluster_version" {
